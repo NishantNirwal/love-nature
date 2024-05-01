@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Rubik", sans-serif;
+}
+
+.hero {
+    background-image: url(./assets/header-hero.jpg);
+    height: 90vh;
+    color: white;
+}
+
+.header-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 40px;
+
+}
+
+.nav-class {
+    display: flex;
+    gap: 35px;
+    font-size: 16px;
+    align-items: center;
+}
+
+.border-btn {
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 22px;
+    border-radius: 5px;
+}
+
+.main-btn {
+    background-color: #DAB200;
+    font-size: 14px;
+    color: #536942;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero-div {
+    margin: 25vh 0vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-div h3 {
+    font-size: 50px;
+}
+
+.hero-div h1 {
+    font-size: 117px;
+}
+
+.hero-div h6 {
+    font-size: 16px;
+}
+
+.problems {
+    min-height: 100vh;
+    padding: 100px 0px;
+}
+
+.problems-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.problems-div h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #536942;
+}
+
+.problems-div div {
+    font-size: 16PX;
+    height: 3px;
+    width: 90px;
+    background-color: #FFD936;
+}
+
+.problems-img {
+    display: grid;
+    margin: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.problems-img img {
+    width: 370px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: none;
+}
+
+.problems-img h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+    color: #536942;
+}
+
+.problems-img p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #536942;
+}
