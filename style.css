@@ -38,7 +38,7 @@
 }
 
 .main-btn {
-    background-color: #DAB200;
+    background-color: #FFD936;
     font-size: 14px;
     color: #536942;
     padding: 15px 40px;
@@ -47,7 +47,7 @@
 }
 
 .hero-div {
-    margin: 25vh 0vh;
+    margin: 50px 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -117,4 +117,62 @@
     font-size: 16px;
     font-weight: 400px;
     color: #536942;
+}
+
+.sc-3 {
+    display: flex;
+    background-color: #F6F8F5;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.sc-3-div {
+    align-items: center;
+}
+
+.sc-3-div h4 {
+    font-size: 43px;
+}
+.last-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/last.jpg);
+    background-position: bottom;
+    height: 80vh;
+}
+.last-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.last-div h2{
+    color:#536942;
+    font-size: 58px;
+    font-weight: 400;
+}
+.last-div p{
+    color: #536942;
+    font-size:17px;
+    font-weight: 400;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.nav-class-footer {
+    display: flex;
+    gap:30px;
+}
+
+.footer img {
+    height: 35px;
 }
